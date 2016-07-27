@@ -1,0 +1,29 @@
+{
+  "name": "angular-styleguide-sample",
+  "version": "0.1.0",
+  "description": "Angular 1.x styleguide (ES2015) Sample App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chihab/angular-styleguide-sample.git"
+  },
+  "keywords": [
+    "Angular",
+    "styleguide",
+    "(ES2015)",
+    "Sample",
+    "App",
+    "Todd",
+    "Motto",
+    "ToddMotto"
+  ],
+  "author": "Chihab Otmani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chihab/angular-styleguide-sample/issues"
+  },
+  "homepage": "https://github.com/chihab/angular-styleguide-sample"
+}
