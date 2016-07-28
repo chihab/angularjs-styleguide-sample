@@ -6,4 +6,17 @@ The app is really really simple, it is supposed to be a starting point to buildi
 
 It is also a good companion to reading the Style Guide.
 
+## Install
+
+```shell
+
+git clone https://github.com/chihab/angular-styleguide-sample
+cd angular-styleguide-sample
+npm run build
+npm start
+
+```
+
+I am working on a more eye friendly version (using angular-ui).
+
 [Chihab Otmani](//chihab.github.io)
