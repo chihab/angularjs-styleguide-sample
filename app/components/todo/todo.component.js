@@ -1,14 +1,16 @@
 import controller from './todo.controller';
 
-const TodoComponent = {
+const TodoComponent = { 
+  bindings: {
+    todoData: '<'
+  },
   controller,
   template: `
     <div class="todo">
-      <h3> Todo Form </h3>
       <todo-form
         todo="$ctrl.newTodo"
         on-add-todo="$ctrl.addTodo($event);">
-      {{$ctrl.todos}}
+      </todo-form>
       <todo-list
         todos="$ctrl.todos"></todo-list>
     </div>

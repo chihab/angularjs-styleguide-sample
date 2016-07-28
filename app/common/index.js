@@ -1,13 +1,13 @@
 import angular from 'angular';
-// import Nav from './nav';
+import Nav from './nav';
 import Header from './header';
-// import Footer from './footer';
+import Footer from './footer';
 
 const common = angular
   .module('app.common', [
-    // Nav,
+    Nav,
     Header,
-    // Footer
+    Footer
   ])
   .name;
 

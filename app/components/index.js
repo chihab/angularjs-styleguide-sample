@@ -1,10 +1,10 @@
 import angular from 'angular';
-// import Calendar from './calendar';
+import Calendar from './calendar';
 import Todo from './todo';
 
 const components = angular
   .module('app.components', [
-    // Calendar,
+    Calendar,
     Todo
   ])
   .name;
