@@ -1,6 +1,5 @@
 // Vendor
 import angular from 'angular';
-import uiBootstrap from 'angular-ui-bootstrap';
 import uiRouter from 'angular-ui-router';
 
 // App
@@ -12,8 +11,7 @@ const app = angular
     .module('app', [
         Components,
         Common,
-        uiRouter,
-        uiBootstrap
+        uiRouter
     ])
     .component('app', AppComponent)
     .name;
