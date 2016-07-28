@@ -4,9 +4,9 @@
   "description": "Angular 1.x styleguide (ES2015) Sample App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "build": "node node_modules/webpack/bin/webpack.js"
+    "build": "node node_modules/webpack/bin/webpack.js",
+    "test": " [ -f dist/bundle.js ] "
   },
   "repository": {
     "type": "git",
