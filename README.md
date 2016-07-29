@@ -24,4 +24,4 @@ Go to http://localhost:8080/
 
 I am working on a more eye friendly version (using angular-ui).
 
-[Chihab Otmani](//chihab.github.io)
+[Chihab Otmani](//chihab.github.io/2016/07/29/angular-styleguide-sample/)
